@@ -1,0 +1,124 @@
+.trans_id{	
+    cursor: pointer;
+    float: left;			
+    width: 60%;
+}	
+.error{				display: none;			}	
+.review_form{			display: none;			float: left;			margin-bottom: 5%;			}
+.review_active{			color: #5bc0de;			font-size: 16px;			}
+.review_active:focus, .review_active:hover {			color: #5bc0de;			font-size: 16px;			text-decoration: none;			} 
+
+/****** Rating Starts *****/          
+/*@import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);    */
+.rating_review { border: none; float: left; }
+.rating_review > input { display: none; } 
+.rating_review > label:before {                 margin: 5px;                font-size: 1.25em;                font-family: FontAwesome;                display: inline-block;                content: "\f005";            }
+.rating_review > .half:before {                 content: "\f089";                position: absolute;            }
+.rating_review > label {                 color: #ddd; font-size: 28px;   display:inline;         }
+.rating_review {
+	direction: rtl;
+	unicode-bidi: bidi-override;
+	color: #ddd; /* Personal choice */
+}
+.rating_review input {
+	display: none;
+}
+.rating_review label:hover,
+.rating_review label:hover ~ label,
+.rating_review input:checked + label,
+.rating_review input:checked + label ~ label {
+	color: #FFD700;  /* Personal color choice. Lifted from Bootstrap 4 */
+}
+.rating_review > input:checked + label:hover,             .rating_review > input:checked ~ label:hover,            .rating_review > label:hover ~ input:checked ~ label,             .rating_review > input:checked ~ label:hover ~ label 
+{ 
+    color: #FFED85;  
+}
+/*downloaded from http://devzone.co.in*/			
+.popup {			    width:100%;			    height:100%;			    display:none;			    position:fixed;			    top:0px;			    left:0px;			    background:rgba(0,0,0,0.75);			}			
+/***********************/
+.rvrwdesc {
+    width:85% !important;
+}
+
+/**********************************/
+
+
+
+/* Inner */
+/* Inner */		
+.popup-inner {
+    max-width:575px;
+    width:90%;
+
+    position:absolute;		
+    top:50%;
+    left:50%;	
+    -webkit-transform:translate(-50%, -50%);			
+    transform:translate(-50%, -50%);			
+    box-shadow:0px 2px 6px rgba(0,0,0,1);			    border-radius:3px;			    background:#fff;			}			/* Close Button */			.popup-close {			    width:30px;			    height:30px;			    padding-top:4px;			    display:inline-block;			    position:absolute;			    top:0px;			    right:0px;			    transition:ease 0.25s all;			    -webkit-transform:translate(50%, -50%);			    transform:translate(50%, -50%);			    border-radius:1000px;			    background:rgba(0,0,0,0.8);			    font-family:Arial, Sans-Serif;			    font-size:20px;			    text-align:center;			    line-height:100%;			    color:#fff;			}			.popup-close:hover {			    -webkit-transform:translate(50%, -50%) rotate(180deg);			    transform:translate(50%, -50%) rotate(180deg);			    background:rgba(0,0,0,1);			    text-decoration:none;			}
+.trans_review{	
+    cursor: pointer;
+}
+.rv_rpl_dv{
+    margin-bottom: 10px;
+}
+
+#ratingform div{
+    width:100%;float:left; margin-bottom: 10px;
+}
+.rev_button {
+    background-color: #66c3ee;padding: 2%;
+    color: #fff;border: #fff; 
+}
+.rating_review {
+    padding-left:0px;margin-bottom: 10px;
+}
+#feedback {
+    width: 40%  !important;
+    margin-left: 10px;
+}
+.rbs-success {
+    color: #fff !important;
+    background-color: #5cb85c !important;
+    border-color: #4cae4c !important;
+    padding: 6px 12px !important;
+}
+.rbs-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    padding: 6px 12px !important;
+}
+
+.rev_button {
+        background-color: #66c3ee;padding: 2%;
+        color: #fff;border: #fff; 
+    }
+    .rplDiv {
+        display: none;
+        margin-bottom:10px;
+        border-bottom: 2px solid #CBCBCB;
+        padding-bottom: 10px;
+    }
+    
+    .rv_rpl_dv a {
+        color:black !important;
+        font-size:15px;font-weight:bold;
+    }
+    #rv_video {
+      
+        width: 100%;height: 80%;
+    }
+  
+  .rvrw_loadingIcon{
+        display: none;
+       
+    }
+    #your-video-id{
+        width:80%;
+        height:80%;
+    }
+    .rvrwbtn {
+        color:black !important;
+        background-color: white !important;
+    }

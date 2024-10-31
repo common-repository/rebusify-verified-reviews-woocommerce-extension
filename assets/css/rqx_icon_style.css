@@ -1,0 +1,6 @@
+body.woocommerce-account ul li.woocommerce-MyAccount-navigation-link--reviews a:before{
+	content: "\f005"; font-family: "FontAwesome";
+}
+body.woocommerce-account ul li.woocommerce-MyAccount-navigation-link--reviewreply a:before{
+	 content: "\f122" ; font-family: "FontAwesome";
+}

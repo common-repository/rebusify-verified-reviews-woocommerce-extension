@@ -1,0 +1,30 @@
+#ratingform div{
+        width:100%;float:left; margin-bottom: 10px;
+    }
+    .rev_button {
+        background-color: #66c3ee;padding: 2%;
+        color: #fff;border: #fff; 
+    }
+    .rating_review {
+        margin-bottom: 10px;
+    }
+    #feedback {
+        width: 40%  !important;
+        margin-left: 10px;
+    }
+    .rbs-success {
+        color: #fff !important;
+        background-color: #5cb85c !important;
+        border-color: #4cae4c !important;
+        padding: 6px 12px !important;
+    }
+    .rbs-danger {
+        color: #fff;
+        background-color: #d9534f;
+        border-color: #d43f3a;
+        padding: 6px 12px !important;
+    }
+    .rvrw_loadingIcon{
+        display: none;
+        background-image: url('../images/loading.gif');
+    }
